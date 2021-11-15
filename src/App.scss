@@ -1,0 +1,171 @@
+html {
+  /* font-size: 16px; */
+  font-size: 100%;
+}
+
+
+.App {
+  padding-top: 80px;
+}
+
+p {
+  line-height: 1.3;
+}
+
+.headerWrapper {
+  height: 80px;
+
+  &.bg-light {
+      background: #fff !important;
+  }
+
+  .navbar-brand {
+      font-size: 2rem;
+      color: #000;
+      font-weight: bold;
+  }
+}
+
+.headerRight {
+  max-width: 40%;
+
+  ul {
+      justify-content: flex-end;
+      margin-left: auto;
+  }
+
+  .nav-item {
+      margin-left: 10px;
+  }
+
+  .nav-link {
+      font-size: 1.1rem;
+      color: #000;
+      // font-weight: bold;
+  }
+}
+
+.bannerWrapper {
+  background-color: #F2F8FF;
+  padding: 40px 0;
+}
+
+.bannerLeftWrapper {
+  h1 {
+      font-size: 44px;
+      font-weight: bold;
+      line-height: 1;
+      margin-bottom: 40px;
+  }
+  h5 {
+      font-size: 24px;
+      font-weight: normal;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+  }
+
+  button {
+      margin-bottom: 40px;
+      height: 48px;
+      width: 160px;
+  }
+}
+
+.bannerImage {
+  max-width: 450px;
+  height: auto;
+}
+
+
+.footerWrapper {
+  background: #080f39;
+  color: #fff;
+  padding: 100px 0 25px;
+
+  .nav-link {
+    display: block;
+    padding: 0.4rem 0rem;
+    color: #f5deb3;
+  }
+  .nav-link:hover,.nav-link:focus {
+    color: #f5deb3;
+    // font-weight: bold;
+  }
+  .copyRight {
+    text-align: center;
+    margin: 40px 0 10px;
+  }
+}
+
+.whatIsWrapper {
+  padding: 85px 0;
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  .whatisInfo {
+    font-size: 26px;
+    max-width: 580px;
+    margin: 0 auto 45px;
+    line-height: 1.2;
+  }
+
+  .item {
+    max-width: 280px;
+    margin: 0 auto;
+
+    h3 {
+      line-height: 1;
+      font-weight: bold;
+      height: 56px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      color: #7a7a7a;
+    }
+  }
+}
+
+.features {
+  background-color: #F2F8FF;
+  padding: 60px 0;
+
+  .featuresList {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    li {
+      width: 30%;
+      display: flex;
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 50px 0px rgb(0, 0, 0, 10%);
+      border: 1px solid #EAECEE;
+      margin-bottom: 15px;
+
+      h5 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+
+    }
+  }
+
+  .featureIcon {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+  }
+}
