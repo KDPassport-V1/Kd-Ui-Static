@@ -169,3 +169,156 @@ p {
     margin-bottom: 25px;
   }
 }
+
+
+.customers {
+  background-color: #fff;
+  padding: 60px 0;
+
+  .customer-head{
+    padding: 40px;
+  }
+
+  .customerList {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .customer{
+      padding: 0px 20px;
+
+      .customer-p{
+        padding-bottom: 80px;
+      }
+    }
+
+    li {
+      width: 30%;
+      display: flex;
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 50px 0px rgb(0, 0, 0, 10%);
+      border: 1px solid #EAECEE;
+      margin-bottom: 15px;
+
+      h5 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+
+    }
+  }
+
+  .customerIcon {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+  }
+}
+
+.pricing {
+  padding: 85px 0;
+  text-align: center;
+  background-color: #F2F8FF;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  h5{
+    text-align: start;
+  }
+
+  button {
+    margin-bottom: 40px;
+    height: 48px;
+    width: 100%;
+
+  }
+
+  .whatisInfo {
+    font-size: 18px;
+    max-width: 580px;
+    margin: 0 auto 45px;
+    line-height: 1.2;
+  }
+
+  .pricing-card{
+    background: white;
+    padding: 30px;
+    margin: 0px 6px;
+  }
+
+  .pricing-item {
+    max-width: 280px;
+    margin: 0 auto;
+
+    li{
+      text-align: start;
+    }
+
+    h3 {
+      line-height: 1;
+      font-weight: bold;
+      height: 56px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      color: #7a7a7a;
+      text-align: start;
+      span {
+        font-size: 26px;
+        color: #2AA3D9;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+
+.questions {
+  padding: 85px 0;
+  text-align: center;
+
+  p {
+    font-size: 18px;
+    color: #3E4A59;
+  }
+
+  label {
+    width: 100%;
+    padding: 18px;
+    text-align: start;
+    color: black;
+    background: white;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .card{
+    border: none;
+  }
+
+  .card-body{
+    text-align: start;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  .card-header{
+    padding: 0px;
+  }
+}
